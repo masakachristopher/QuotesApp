@@ -14,6 +14,8 @@
 		EF2842D1287B3F16009D3944 /* QuotesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2842D0287B3F16009D3944 /* QuotesAppTests.swift */; };
 		EF2842DB287B3F16009D3944 /* QuotesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2842DA287B3F16009D3944 /* QuotesAppUITests.swift */; };
 		EF2842DD287B3F16009D3944 /* QuotesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2842DC287B3F16009D3944 /* QuotesAppUITestsLaunchTests.swift */; };
+		EF2842EB287B4290009D3944 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2842EA287B4290009D3944 /* QuoteModel.swift */; };
+		EF2842ED287B44D0009D3944 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2842EC287B44D0009D3944 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		EF2842D6287B3F16009D3944 /* QuotesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2842DA287B3F16009D3944 /* QuotesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesAppUITests.swift; sourceTree = "<group>"; };
 		EF2842DC287B3F16009D3944 /* QuotesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF2842E9287B40CF009D3944 /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		EF2842EA287B4290009D3944 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		EF2842EC287B44D0009D3944 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,8 @@
 		EF2842BE287B3F0F009D3944 /* QuotesApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF2842EC287B44D0009D3944 /* Extensions.swift */,
+				EF2842EA287B4290009D3944 /* QuoteModel.swift */,
 				EF2842BF287B3F0F009D3944 /* QuotesAppApp.swift */,
 				EF2842C1287B3F0F009D3944 /* ContentView.swift */,
 				EF2842C3287B3F16009D3944 /* Assets.xcassets */,
@@ -105,6 +112,7 @@
 		EF2842C5287B3F16009D3944 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				EF2842E9287B40CF009D3944 /* quotes.json */,
 				EF2842C6287B3F16009D3944 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -257,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2842EB287B4290009D3944 /* QuoteModel.swift in Sources */,
 				EF2842C2287B3F0F009D3944 /* ContentView.swift in Sources */,
 				EF2842C0287B3F0F009D3944 /* QuotesAppApp.swift in Sources */,
+				EF2842ED287B44D0009D3944 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
